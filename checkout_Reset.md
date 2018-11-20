@@ -28,24 +28,26 @@ Para realizar los siguientes ejercicios debes investigar sobre los parámetros -
 21. Utilizando git reset deshaz el commit previo para que ningún cambio aparezca en el directorio de trabajo.
 22. ¡Date una palmadita en la espalda! ¡Acabas de realizar un flujo de trabajo bastante complejo de git!
     
-1. mkdir destruction
-2. cd destruction
-3. git init
-4. touch stage_me.txt
-5. git add stage_me.txt
-6. git rm --cached stage_me.txt
-7. git add stage_me.txt
-8. git rm -f stage_me.txt  // **He tenido que forzar porque no dejaba quitarlo sin --cache o -f.**
-9. touch commit_me.txt
-10. git add commit_me.txt
-11. git commit -m "adding commit_me.txt"
-12. touch second.txt
-13. git add second.txt
-14. git commit -m "adding second.txt"
-15. git log --oneline
-16. git reset --mixed COD_COMMIT
-17. git add second.txt
-18. git commit -m "Trying to commit again"
-19. git reset --soft COD_COMMIT
-20. git commit -m "Trying to commit again and again"
-21. git reset --hard COD_COMMIT
+    RESPUESTAS
+    
+    1. mkdir destruction
+    2. cd destruction
+    3. git init
+    4. touch stage_me.txt
+    5. git add stage_me.txt
+    6. git rm --cached stage_me.txt
+    7. git add stage_me.txt
+    8. git rm -f stage_me.txt  // **He tenido que forzar porque no dejaba quitarlo sin --cache o -f.**
+    9. touch commit_me.txt
+    10. git add commit_me.txt
+    11. git commit -m "adding commit_me.txt"
+    12. touch second.txt
+    13. git add second.txt
+    14. git commit -m "adding second.txt"
+    15. git log --oneline
+    16. git reset --mixed COD_COMMIT
+    17. git add second.txt
+    18. git commit -m "Trying to commit again"
+    19. git reset --soft COD_COMMIT
+    20. git commit -m "Trying to commit again and again"
+    21. git reset --hard COD_COMMIT
